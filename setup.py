@@ -11,7 +11,7 @@ from setuptools import setup, find_packages
 # To use a consistent encoding
 from codecs import open
 from os import path
-from EmailHarvester.core.settings import __version__ as version
+from .EmailHarvester.core.settings import __version__ as version
 
 here = path.abspath(path.dirname(__file__))
 

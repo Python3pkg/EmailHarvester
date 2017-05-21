@@ -48,11 +48,11 @@ def console(all_emails):
 def message(msg, color=white, underline=False):
     if list is type(msg):
         for line in msg:
-            print(color(line))
+            print((color(line)))
     else:
-        print(color(msg))
+        print((color(msg)))
     if underline:
-        print(color("-" * len(msg)))
+        print((color("-" * len(msg))))
 
 
 def alert(msg, underline=False):
